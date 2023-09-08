@@ -1,0 +1,17 @@
+{
+  "name": "taiga-discordbot",
+  "version": "1.0.0",
+  "description": "discord integration of https://asktaiga.ai/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.13.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0"
+  }
+}
