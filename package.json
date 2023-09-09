@@ -4,7 +4,7 @@
   "description": "discord integration of https://asktaiga.ai/",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deployrun": "node deploy-commands.js && node index.js"
   },
   "author": "",
   "license": "ISC",
