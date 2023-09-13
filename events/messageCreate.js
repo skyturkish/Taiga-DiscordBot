@@ -7,7 +7,10 @@ module.exports = {
 
         const shortQuestionInfo = `${message.author} Please write a question more than 4 characters to get help from me`
 
-        if (message.mentions.users.has('1149799424000794655')) {
+        if (
+            message.mentions.users.has('1149799424000794655') &&
+            message.channel.type === 0
+        ) {
             const actualContent = message.content
                 .replace(/<@[^>]*>/g, '')
                 .trim()
